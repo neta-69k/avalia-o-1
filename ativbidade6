@@ -1,0 +1,107 @@
+Excelente! Vamos resolver as **três questões** usando a **classe `Scanner`** para entrada de dados no console. Também usaremos **constantes** com `final`, conforme o padrão Java.
+
+---
+
+### ✅ **Questão 01: Cálculo de Nota Final**
+
+```java
+import java.util.Scanner;
+
+public class NotaFinal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        final double MEDIA_APROVACAO = 7.0;
+
+        // Entrada das notas
+        System.out.print("Digite a primeira nota: ");
+        double nota1 = scanner.nextDouble();
+
+        System.out.print("Digite a segunda nota: ");
+        double nota2 = scanner.nextDouble();
+
+        // Cálculo da média
+        double media = (nota1 + nota2) / 2;
+
+        // Verificação da aprovação
+        boolean aprovado = media >= MEDIA_APROVACAO;
+
+        // Exibe o resultado
+        System.out.println("Aprovado: " + aprovado);
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+### ✅ **Questão 02: Verificação de Compra**
+
+```java
+import java.util.Scanner;
+
+public class VerificacaoCompra {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        final double TAXA_DESCONTO = 0.10;
+
+        // Entrada de dados
+        System.out.print("Digite o preço do produto: ");
+        double precoProduto = scanner.nextDouble();
+
+        System.out.print("Digite o valor disponível do cliente: ");
+        double valorCliente = scanner.nextDouble();
+
+        // Cálculo do preço com desconto
+        double precoComDesconto = precoProduto * (1 - TAXA_DESCONTO);
+
+        // Verificação de possibilidade de compra
+        boolean compraPermitida = valorCliente >= precoComDesconto;
+
+        // Exibe o resultado
+        System.out.println("Compra permitida: " + compraPermitida);
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+### ✅ **Questão 03: Triagem para Doação de Sangue**
+
+```java
+import java.util.Scanner;
+
+public class DoacaoSangue {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        final double PESO_MINIMO = 50.0;
+
+        // Entrada de dados
+        System.out.print("Digite a idade da pessoa: ");
+        int idade = scanner.nextInt();
+
+        System.out.print("Digite o peso da pessoa (kg): ");
+        double peso = scanner.nextDouble();
+
+        // Verificação de elegibilidade
+        boolean aptoParaDoar = idade >= 18 && peso >= PESO_MINIMO;
+
+        // Exibe o resultado
+        System.out.println("Apto para doar: " + aptoParaDoar);
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+### 🧠 Observações:
+
+* A constante em Java é declarada com `final` (ex: `final double MEDIA_APROVACAO = 7.0;`)
+* O método `scanner.nextDouble()` ou `scanner.nextInt()` lê números do teclado.
+* Sempre chame `scanner.close()` ao final do uso para boas práticas.
+
+Se quiser, posso juntar os três exercícios em **um único programa com menu de opções**. Deseja isso?
