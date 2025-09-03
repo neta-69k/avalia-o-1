@@ -1,0 +1,82 @@
+Ótimo! Aqui está um passo a passo **prático** para realizar essa atividade da **Aula 02**: instalar a **JDK**, a **IDE IntelliJ**, e criar o seu **primeiro projeto em Java** que imprime seu nome no console.
+
+---
+
+## ✅ **1. Instalar a JDK (Java Development Kit)**
+
+### 🔹 Passo a passo:
+
+1. Acesse: [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+2. Baixe a versão mais recente da **JDK (Java SE)**
+3. Instale normalmente (próximo, próximo...).
+4. Após instalar, abra o terminal (Prompt de Comando ou PowerShell) e digite:
+
+```bash
+java -version
+```
+
+Se tudo estiver certo, você verá algo como:
+
+```
+java version "17.0.x"  (ou superior)
+```
+
+---
+
+## ✅ **2. Instalar a IntelliJ IDEA (IDE)**
+
+### 🔹 Passo a passo:
+
+1. Acesse: [https://www.jetbrains.com/idea/download/](https://www.jetbrains.com/idea/download/)
+2. Baixe a versão **Community** (gratuita).
+3. Instale normalmente.
+4. Abra a IntelliJ após instalar.
+
+---
+
+## ✅ **3. Criar o primeiro projeto em Java na IntelliJ**
+
+### 🔹 Passo a passo:
+
+1. Abra a **IntelliJ IDEA**
+2. Clique em **New Project**
+3. Selecione:
+
+   * **Language:** Java
+   * **Build system:** IntelliJ
+   * **JDK:** Escolha a JDK instalada anteriormente
+4. Clique em **Next > Next > Finish**
+
+---
+
+## ✅ **4. Criar a classe com o método `main`**
+
+### 🔹 Crie uma classe Java:
+
+1. No painel esquerdo, vá até `src` > clique com botão direito > **New > Java Class**
+2. Nomeie a classe como: `MeuPrimeiroPrograma`
+3. Escreva o seguinte código:
+
+```java
+public class MeuPrimeiroPrograma {
+    public static void main(String[] args) {
+        System.out.println("Seu Nome Aqui"); // Substitua por seu nome real
+    }
+}
+```
+
+---
+
+## ✅ **5. Executar o programa**
+
+1. Clique com o botão direito dentro do código.
+2. Escolha **Run 'MeuPrimeiroPrograma.main()'**
+3. O console será aberto na parte inferior da IDE e mostrará algo como:
+
+```
+Seu Nome Aqui
+```
+
+---
+
+Se quiser, posso gerar o código exato com seu nome. Me diga como você quer que apareça no console (ex: "Meu nome é João Silva").
