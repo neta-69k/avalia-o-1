@@ -1,0 +1,96 @@
+Perfeito! Vamos desenvolver os **dois algoritmos em Java**, com **entrada de dados via teclado** (usando `Scanner`) e realizando os cálculos necessários para **conversão de temperatura** e **reajuste salarial**.
+
+---
+
+## ✅ **Questão 01: Conversão de Temperatura (Celsius → Fahrenheit)**
+
+📌 **Fórmula:**
+
+$$
+F = (C \times \frac{9}{5}) + 32
+$$
+
+### 📄 Código:
+
+```java
+import java.util.Scanner;
+
+public class ConversaoTemperatura {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada da temperatura em Celsius
+        System.out.print("Digite a temperatura em Celsius: ");
+        double celsius = scanner.nextDouble();
+
+        // Conversão para Fahrenheit
+        double fahrenheit = (celsius * 9 / 5) + 32;
+
+        // Exibe o resultado
+        System.out.println("Temperatura em Fahrenheit: " + fahrenheit);
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+## ✅ **Questão 02: Cálculo de Salário com Adicional (Reajuste)**
+
+📌 **Fórmula:**
+
+$$
+\text{salário final} = \text{salário-base} + (\text{salário-base} \times \frac{\text{percentual}}{100})
+$$
+
+### 📄 Código:
+
+```java
+import java.util.Scanner;
+
+public class ReajusteSalarial {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada do salário-base
+        System.out.print("Digite o salário-base: R$ ");
+        double salarioBase = scanner.nextDouble();
+
+        // Entrada do percentual de aumento
+        System.out.print("Digite o percentual de aumento (%): ");
+        double percentual = scanner.nextDouble();
+
+        // Cálculo do salário final com reajuste
+        double salarioFinal = salarioBase + (salarioBase * percentual / 100);
+
+        // Exibe o resultado
+        System.out.println("Salário final com reajuste: R$ " + salarioFinal);
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+### ✅ Exemplos de Entrada/Saída:
+
+#### **Conversão de Temperatura:**
+
+```
+Digite a temperatura em Celsius: 25
+Temperatura em Fahrenheit: 77.0
+```
+
+#### **Reajuste Salarial:**
+
+```
+Digite o salário-base: R$ 2000
+Digite o percentual de aumento (%): 10
+Salário final com reajuste: R$ 2200.0
+```
+
+---
+
+Se quiser, posso unir os dois códigos em um **único programa com menu de seleção** (por exemplo: 1 - Temperatura, 2 - Salário). Deseja isso?
