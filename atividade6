@@ -1,0 +1,80 @@
+Ótima proposta! Vamos por partes para facilitar o entendimento.
+
+---
+
+## ✅ **Parte 1: Métodos Interessantes das Classes Wrapper**
+
+Java oferece **classes wrapper** (de empacotamento) para cada tipo primitivo. Essas classes estão no pacote `java.lang` e adicionam funcionalidades úteis, como métodos de conversão, comparação, verificação, etc.
+
+### 🧾 Métodos interessantes por tipo wrapper:
+
+| Tipo Primitivo | Classe Wrapper | Método Interessante            | O que faz                                 |
+| -------------- | -------------- | ------------------------------ | ----------------------------------------- |
+| `int`          | `Integer`      | `Integer.parseInt(String)`     | Converte uma `String` em `int`.           |
+| `double`       | `Double`       | `Double.isNaN(double)`         | Verifica se um valor é "Not a Number".    |
+| `char`         | `Character`    | `Character.isLetter(char)`     | Verifica se o caractere é uma letra.      |
+| `boolean`      | `Boolean`      | `Boolean.parseBoolean(String)` | Converte `String` para `boolean`.         |
+| `String`       | `String`       | `String.toUpperCase()`         | Converte a string para letras maiúsculas. |
+
+---
+
+## ✅ **Parte 2: Algoritmo em Java usando 3 desses métodos**
+
+Abaixo, um exemplo simples que:
+
+1. Converte uma string em número (`Integer.parseInt`)
+2. Verifica se um caractere é uma letra (`Character.isLetter`)
+3. Transforma uma string em maiúsculas (`String.toUpperCase`)
+
+```java
+import java.util.Scanner;
+
+public class ExemploWrappers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Uso de Integer.parseInt
+        System.out.print("Digite um número inteiro: ");
+        String numeroTexto = scanner.nextLine();
+        int numero = Integer.parseInt(numeroTexto); // converte String para int
+        System.out.println("Número ao quadrado: " + (numero * numero));
+
+        // Uso de Character.isLetter
+        System.out.print("Digite um caractere: ");
+        char caractere = scanner.nextLine().charAt(0);
+        boolean ehLetra = Character.isLetter(caractere);
+        System.out.println("É uma letra? " + ehLetra);
+
+        // Uso de String.toUpperCase
+        System.out.print("Digite uma palavra: ");
+        String palavra = scanner.nextLine();
+        System.out.println("Palavra em maiúsculas: " + palavra.toUpperCase());
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+## ✅ Saída Esperada (Exemplo):
+
+Se o usuário digitar:
+
+```
+Digite um número inteiro: 5
+Digite um caractere: A
+Digite uma palavra: java
+```
+
+A saída será:
+
+```
+Número ao quadrado: 25
+É uma letra? true
+Palavra em maiúsculas: JAVA
+```
+
+---
+
+Se quiser, posso expandir isso para usar **todos os 5 tipos Wrapper** em um exemplo mais completo. Deseja isso?
