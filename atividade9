@@ -1,0 +1,94 @@
+Claro! Abaixo estão as **respostas corretas** com **breves explicações** para cada uma das 7 questões.
+
+---
+
+### ✅ **Questão 01**
+
+**Pergunta:** Qual das alternativas descreve corretamente uma característica de uma linguagem de baixo nível?
+
+**✅ Resposta correta:** **c) Oferece maior controle sobre o hardware, mas é mais difícil de programar.**
+
+**Explicação:**
+Linguagens de baixo nível (como Assembly) são próximas do código de máquina e oferecem controle direto sobre o hardware, porém exigem mais conhecimento técnico e são menos legíveis.
+
+---
+
+### ✅ **Questão 02**
+
+**Pergunta:** Assinale a alternativa que apresenta apenas linguagens de alto nível:
+
+**✅ Resposta correta:** **b) C, Java e Python**
+
+**Explicação:**
+Todas essas linguagens são de **alto nível**, pois possuem sintaxe mais próxima da linguagem humana e abstraem detalhes do hardware.
+
+---
+
+### ✅ **Questão 03**
+
+**Pergunta:** Qual das alternativas representa uma característica de um algoritmo compilado?
+
+**✅ Resposta correta:** **a) É traduzido para código de máquina antes de ser executado.**
+
+**Explicação:**
+Linguagens compiladas (como C ou Java na primeira etapa) precisam ser convertidas em código de máquina antes da execução.
+
+---
+
+### ✅ **Questão 04**
+
+**Pergunta:** Qual é a principal vantagem de programas interpretados?
+
+**✅ Resposta correta:** **b) Podem ser executados imediatamente sem uma etapa de compilação.**
+
+**Explicação:**
+Programas interpretados (como scripts em Python) são executados linha por linha, sem necessidade de gerar um arquivo executável previamente.
+
+---
+
+### ✅ **Questão 05**
+
+**Pergunta:** O que acontece no processo de execução de um programa em Java?
+
+**✅ Resposta correta:** **c) O código é compilado para bytecode e, em seguida, interpretado pela JVM.**
+
+**Explicação:**
+Java é compilado para **bytecode** (linguagem intermediária), e esse bytecode é **interpretado e/ou compilado just-in-time pela JVM**.
+
+---
+
+### ✅ **Questão 06**
+
+**Pergunta:** Qual é a principal finalidade de um algoritmo?
+
+**✅ Resposta correta:** **b) Definir passos lógicos para solucionar um problema.**
+
+**Explicação:**
+Um algoritmo é uma **sequência de passos lógicos e ordenados** para resolver um problema específico.
+
+---
+
+### ✅ **Questão 07**
+
+**Pergunta:** O que é lógica de programação?
+
+**✅ Resposta correta:** **c) A habilidade de organizar e estruturar pensamentos para resolver problemas de forma lógica e eficiente.**
+
+**Explicação:**
+Lógica de programação envolve raciocínio lógico aplicado na resolução de problemas através de código bem estruturado.
+
+---
+
+### 📋 **Resumo das Respostas Corretas:**
+
+| Questão | Resposta Correta |
+| ------- | ---------------- |
+| 01      | c                |
+| 02      | b                |
+| 03      | a                |
+| 04      | b                |
+| 05      | c                |
+| 06      | b                |
+| 07      | c                |
+
+Se quiser, posso transformar isso em um **formulário interativo**, ou gerar um **PDF com as respostas** para facilitar o estudo. Deseja isso?
