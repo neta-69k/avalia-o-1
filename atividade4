@@ -1,0 +1,53 @@
+Claro! Abaixo estão os **algoritmos em Java** resolvendo as duas questões conforme solicitado. Os programas são simples, com variáveis claras, e mostram os resultados no console com o `System.out.println`.
+
+---
+
+## ✅ **Questão 01: Cálculo de Área e Perímetro**
+
+```java
+public class Retangulo {
+    public static void main(String[] args) {
+        // Declaração das variáveis base e altura
+        double base = 5.5;
+        double altura = 3.2;
+
+        // Cálculo da área (base * altura)
+        double area = base * altura;
+
+        // Cálculo do perímetro (2 * (base + altura))
+        double perimetro = 2 * (base + altura);
+
+        // Exibição dos resultados no console
+        System.out.println("Área do retângulo: " + area);
+        System.out.println("Perímetro do retângulo: " + perimetro);
+    }
+}
+```
+
+> 💡 **Dica:** Você pode alterar os valores de `base` e `altura` conforme desejar.
+
+---
+
+## ✅ **Questão 02: Comparação de Idades**
+
+```java
+public class ComparacaoIdades {
+    public static void main(String[] args) {
+        // Declaração das idades
+        int idadePessoa1 = 30;
+        int idadePessoa2 = 25;
+
+        // Verifica se a primeira pessoa é mais velha
+        boolean pessoa1MaisVelha = idadePessoa1 > idadePessoa2;
+
+        // Exibe o resultado no console
+        System.out.println("A primeira pessoa é mais velha: " + pessoa1MaisVelha);
+    }
+}
+```
+
+> 💡 **Nota:** Você pode trocar os valores de `idadePessoa1` e `idadePessoa2` para testar diferentes situações.
+
+---
+
+Se quiser que esses algoritmos leiam valores do **teclado** (entrada do usuário), posso te mostrar como usar `Scanner`. Deseja isso?
