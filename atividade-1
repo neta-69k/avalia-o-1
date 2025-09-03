@@ -1,0 +1,68 @@
+Aqui estão as respostas para as questões apresentadas, com breves justificativas:
+
+---
+
+### **Questão 01**
+
+**Qual das alternativas descreve corretamente uma característica de uma linguagem de baixo nível?**
+
+✅ **c) Oferece maior controle sobre o hardware, mas é mais difícil de programar.**
+*Justificativa:* Linguagens de baixo nível, como Assembly, permitem controle direto do hardware, mas são mais difíceis de escrever e entender.
+
+---
+
+### **Questão 02**
+
+**Assinale a alternativa que apresenta apenas linguagens de alto nível:**
+
+✅ **b) C, Java e Python**
+*Justificativa:* Todas essas são linguagens de alto nível. C está mais próximo do hardware, mas ainda é considerada de alto nível em comparação com Assembly ou código de máquina.
+
+---
+
+### **Questão 03**
+
+**Qual das alternativas representa uma característica de um algoritmo compilado?**
+
+✅ **a) É traduzido para código de máquina antes de ser executado.**
+*Justificativa:* Compiladores convertem o código-fonte em código de máquina (executável) antes da execução.
+
+---
+
+### **Questão 04**
+
+**Qual é a principal vantagem de programas interpretados?**
+
+✅ **b) Podem ser executados imediatamente sem uma etapa de compilação.**
+*Justificativa:* Em linguagens interpretadas, como Python, o código é executado linha por linha diretamente pelo interpretador.
+
+---
+
+### **Questão 05**
+
+**O que acontece no processo de execução de um programa em Java?**
+
+✅ **c) O código é compilado para bytecode e, em seguida, interpretado pela JVM.**
+*Justificativa:* O compilador Java gera bytecode, que é interpretado (ou JIT-compilado) pela JVM para execução.
+
+---
+
+### **Questão 06**
+
+**Qual é a principal finalidade de um algoritmo?**
+
+✅ **b) Definir passos lógicos para solucionar um problema.**
+*Justificativa:* Um algoritmo é uma sequência de instruções bem definidas para resolver um problema específico.
+
+---
+
+### **Questão 07**
+
+**O que é lógica de programação?**
+
+✅ **c) A habilidade de organizar e estruturar pensamentos para resolver problemas de forma lógica e eficiente.**
+*Justificativa:* Lógica de programação é a base para escrever algoritmos e programas que resolvem problemas de forma eficaz.
+
+---
+
+Se precisar de um gabarito separado ou explicações mais detalhadas, posso te ajudar também!
