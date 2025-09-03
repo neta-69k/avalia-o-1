@@ -1,0 +1,143 @@
+Perfeito! Vamos resolver as duas **atividades em Java** de forma clara, com entrada via teclado (`Scanner`) e **exibição organizada dos resultados**, conforme os exemplos fornecidos.
+
+---
+
+## ✅ **Atividade 01: Sistema Escolar - Cálculo de Médias**
+
+### 🧮 Regras:
+
+* Receber 8 notas (2 por bimestre, total de 4 bimestres).
+* Calcular:
+
+  * Média de cada **bimestre** (2 notas).
+  * Média de cada **semestre** (2 bimestres).
+  * **Média final** (2 semestres).
+
+### 📄 Código Java:
+
+```java
+import java.util.Scanner;
+
+public class SistemaEscolar {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double[] notas = new double[8];
+
+        // Entrada das 8 notas
+        System.out.println("Digite as 8 notas anuais do aluno:");
+        for (int i = 0; i < notas.length; i++) {
+            System.out.print("Nota " + (i + 1) + ": ");
+            notas[i] = scanner.nextDouble();
+        }
+
+        // Cálculo das médias bimestrais
+        double mediaBim1 = (notas[0] + notas[1]) / 2;
+        double mediaBim2 = (notas[2] + notas[3]) / 2;
+        double mediaBim3 = (notas[4] + notas[5]) / 2;
+        double mediaBim4 = (notas[6] + notas[7]) / 2;
+
+        // Médias semestrais
+        double mediaSem1 = (mediaBim1 + mediaBim2) / 2;
+        double mediaSem2 = (mediaBim3 + mediaBim4) / 2;
+
+        // Média final
+        double mediaFinal = (mediaSem1 + mediaSem2) / 2;
+
+        // Exibição dos resultados
+        System.out.println("\n--- Práticas ---\n");
+        System.out.println("1º Bimestre: " + mediaBim1);
+        System.out.println("2º Bimestre: " + mediaBim2);
+        System.out.println("1º Semestre: " + mediaSem1);
+        System.out.println("----------------------");
+        System.out.println("3º Bimestre: " + mediaBim3);
+        System.out.println("4º Bimestre: " + mediaBim4);
+        System.out.println("2º Semestre: " + mediaSem2);
+        System.out.println("----------------------");
+        System.out.println("Média Final: " + mediaFinal);
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+## ✅ **Atividade 02: Conversão de Temperatura (Celsius → Fahrenheit e Kelvin)**
+
+### 📌 Fórmulas:
+
+* Fahrenheit = (C × 9/5) + 32
+* Kelvin = C + 273.15
+
+### 📄 Código Java:
+
+```java
+import java.util.Scanner;
+
+public class ConversaoTemperaturaCompleta {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada de temperatura em Celsius
+        System.out.print("Digite a temperatura em Celsius: ");
+        double celsius = scanner.nextDouble();
+
+        // Conversões
+        double fahrenheit = (celsius * 9 / 5) + 32;
+        double kelvin = celsius + 273.15;
+
+        // Exibição dos resultados
+        System.out.println("\n--- Práticas ---\n");
+        System.out.println("Temperatura em Celsius: " + celsius + " °C");
+        System.out.println("Temperatura em Fahrenheit: " + fahrenheit + " °F");
+        System.out.println("Temperatura em Kelvin: " + kelvin + " K");
+
+        scanner.close();
+    }
+}
+```
+
+---
+
+## ✅ Resultado Esperado (Exemplo):
+
+### 🎓 Atividade 01:
+
+```
+Nota 1: 6
+Nota 2: 6
+Nota 3: 7
+Nota 4: 7
+Nota 5: 8
+Nota 6: 8
+Nota 7: 9
+Nota 8: 9
+
+--- Práticas ---
+
+1º Bimestre: 6.0
+2º Bimestre: 7.0
+1º Semestre: 6.5
+----------------------
+3º Bimestre: 8.0
+4º Bimestre: 9.0
+2º Semestre: 8.5
+----------------------
+Média Final: 7.5
+```
+
+### 🌡️ Atividade 02:
+
+```
+Digite a temperatura em Celsius: 25
+
+--- Práticas ---
+
+Temperatura em Celsius: 25.0 °C
+Temperatura em Fahrenheit: 77.0 °F
+Temperatura em Kelvin: 298.15 K
+```
+
+---
+
+Se quiser, posso combinar os dois programas em um só com **menu de escolha** (ex: digite 1 para calcular médias ou 2 para converter temperatura). Deseja isso?
