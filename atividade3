@@ -1,0 +1,91 @@
+Claro! Vamos analisar cada **questão-problema** individualmente, identificando:
+
+1. As **variáveis obrigatórias** solicitadas.
+2. Os **tipos de dados adequados** para cada variável.
+3. Uma **variável adicional sugerida** com seu tipo.
+
+---
+
+### ✅ Questão-Problema 01: **Cadastro de Aluno**
+
+**Informações que precisam ser armazenadas:**
+
+* Nome completo
+* Idade
+* Altura (em metros)
+* Está matriculado?
+
+#### 🧾 Variáveis e Tipos:
+
+| Variável        | Tipo de Dado              | Explicação                             |
+| --------------- | ------------------------- | -------------------------------------- |
+| `nome_completo` | `str` (string)            | Texto com o nome do aluno              |
+| `idade`         | `int` (inteiro)           | Idade em anos, valor inteiro           |
+| `altura`        | `float` (ponto flutuante) | Medida em metros (ex: 1.75)            |
+| `matriculado`   | `bool` (booleano)         | Verdadeiro (`True`) ou falso (`False`) |
+
+#### ➕ Variável adicional sugerida:
+
+* `data_nascimento` → Tipo: `str` ou `date` (dependendo da linguagem e se usa biblioteca de datas)
+
+---
+
+### ✅ Questão-Problema 02: **Informações de Produto**
+
+**Informações necessárias:**
+
+* Nome do produto
+* Quantidade em estoque
+* Preço unitário
+* Está disponível para venda?
+
+#### 🧾 Variáveis e Tipos:
+
+| Variável             | Tipo de Dado | Explicação               |
+| -------------------- | ------------ | ------------------------ |
+| `nome_produto`       | `str`        | Nome descritivo do item  |
+| `quantidade_estoque` | `int`        | Quantidade inteira       |
+| `preco_unitario`     | `float`      | Valor com casas decimais |
+| `disponivel_venda`   | `bool`       | True/False               |
+
+#### ➕ Variável adicional sugerida:
+
+* `categoria` → Tipo: `str` (ex: "alimento", "eletrônico", etc.)
+
+---
+
+### ✅ Questão-Problema 03: **Dados de um Evento**
+
+**Informações a serem registradas:**
+
+* Nome do evento
+* Número de participantes esperados
+* Preço do ingresso
+* Será presencial?
+
+#### 🧾 Variáveis e Tipos:
+
+| Variável               | Tipo de Dado | Explicação               |
+| ---------------------- | ------------ | ------------------------ |
+| `nome_evento`          | `str`        | Nome do evento           |
+| `numero_participantes` | `int`        | Número de pessoas        |
+| `preco_ingresso`       | `float`      | Valor com casas decimais |
+| `evento_presencial`    | `bool`       | True/False               |
+
+#### ➕ Variável adicional sugerida:
+
+* `data_evento` → Tipo: `str` ou `date` (ex: "2025-10-15")
+
+---
+
+### ✅ Resumo Geral dos Tipos
+
+| Tipo de Dado | Significado/Usado para...              |
+| ------------ | -------------------------------------- |
+| `str`        | Textos ou palavras                     |
+| `int`        | Números inteiros                       |
+| `float`      | Números com casas decimais             |
+| `bool`       | Verdadeiro (`True`) ou Falso (`False`) |
+| `date`       | Datas (dependendo da linguagem usada)  |
+
+Se quiser, posso montar esse conteúdo em formato de tabela para impressão ou apresentação.
